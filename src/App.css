@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.character-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.character-card {
+  cursor: pointer;
+  border: 1px solid #ddd;
+  padding: 16px;
+  text-align: center;
+}
+
+.character-card img {
+  max-width: 100%;
+}
+
+
+.character-detail {
+  margin-top: 20px;
+}
